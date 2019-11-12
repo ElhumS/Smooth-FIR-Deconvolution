@@ -1,4 +1,3 @@
-
 function [B, BetaNew]=extractHRFs(conds,numArrays,scanfiles,mask,basisfiles,savedirec,timeprior)
 % This function can be used to extract the haemodynamic response function
 % (HRF) using both the standard FIR (Finite Impulse Response) and smooth FIR. 
@@ -46,6 +45,14 @@ function [B, BetaNew]=extractHRFs(conds,numArrays,scanfiles,mask,basisfiles,save
 % timeprior = 0;
 %
 % extractHRFs(conds,numArrays,scanfiles,mask,basisfiles,savedirec,timeprior)
+%
+% WRITTEN BY: ELHUM A SHAMSHIRI (Elhum.Shamshiri@unige.ch)
+% CODE SHOULD NOT BE DISTRIBUTED AND ANALYSIS SHOULD NOT BE CONDUCTED WITHOUT PRIOR CONSENT FROM THE AUTHOR
+% If you would like to use this software for publication please contact
+
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
 
 
 set(0,'DefaultFigureWindowStyle','docked')
